@@ -1,8 +1,8 @@
 [build]
   command = "npm run build"
-  publish = "dist"
+  publish = "dist" # Altere para o diretório correto se não for "dist"
 
-[redirects]
-  from = "/*/*"
+[[redirects]]
+  from = "/*"
   to = "/index.html"
   status = 200
