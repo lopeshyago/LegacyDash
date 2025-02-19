@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "src" # Altere para o diretório correto se não for "dist"
+  publish = "dist" # Altere para o diretório correto se não for "dist"
 
 [[redirects]]
   from = "/*"
